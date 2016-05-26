@@ -1,0 +1,27 @@
+\documentclass[12pt, oneside]{article}   	% use "amsart" instead of "article" for
+\usepackage[left=2.7cm,right=2.7cm,top=2.7cm,bottom=2.7cm]{geometry}	
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyvrb}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\setlength{\parindent}{0pt}
+
+\newcommand{\reffig}[1]{Figure \ref{#1}\hspace{2pt}}
+\newcommand{\reftab}[1]{Table \ref{#1}\hspace{2pt}}
+
+\begin{document}
+\title{Project 3}
+\author{Kun Zhou}
+\date{\today}
+\maketitle
+P1
+
+
+
+
+
+
+
+\end{document}

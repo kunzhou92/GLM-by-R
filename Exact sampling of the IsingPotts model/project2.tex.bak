@@ -1,0 +1,51 @@
+documentclass[12pt, oneside]{article}   	% use "amsart" instead of "article" for
+\usepackage[left=2.7cm,right=2.7cm,top=2.7cm,bottom=2.7cm]{geometry}	
+
+\usepackage{graphicx}		
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[font=normalsize]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+\begin{document}
+---
+title: "Project 2"
+author: "Kun Zhou"
+date: "2016/5/4"
+header_includes:
+- \usepackage{amsmath}
+output:
+  pdf_document
+---
+1)\par
+\begin{align*}
+&P(X^1_S = 1|X^1_{\partial S}) = \frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^1)}}  \\
+&P(X^2_S = 1|X^2_{\partial S}) = \frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^2)}}
+\end{align*}
+We generate a uniform random variable $r$ from $[0, 1]$.  If $0<r \leq P(X^1_S = 1|X^1_{\partial S})$, $X^1_S=1$ and if $P(X^1_S = 1|X^1_{\partial S}) < r \leq 1$, $X^1_S=0$.  If $0<r \leq P(X^2_S = 1|X^2_{\partial S})$, $X^2_S=1$ and if $P(X^2_S = 1|X^2_{\partial S}) < r \leq 1$, $X^2_S=0$.Now we prove Q1 by induction. Initially we know $X_S^1 \geq X_S^2$ for every site. \par
+Assume after $n$ states, it's still true that $X_S^1 \geq X_S^2$. For state $n+1$, we need to prove there is no case that $X_S^1 = 0$ and $X_S^2=1$. If $X_S^1 = 0$ and $X_S^2=1$, $r > P(X^1_S = 1|X^1_{\partial S}) = \frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^1)}}$ and  $r \leq P(X^2_S = 1|X^2_{\partial S}) = \frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^2)}}$. So if we can prove $P(X^1_S = 1|X^1_{\partial S}) \geq  P(X^2_S = 1|X^2_{\partial S})$, $X_S^1 = 0$ and $X_S^2=1$ cannot happen simultaneously.
+\begin{align*}
+&\frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^1)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^1)}} >  \frac{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)}}{e^{\beta \sum_{<1,t>} 1(1 = X_t^2)} + e^{\beta \sum_{<1,t>} 1(0 = X_t^2)}} \Rightarrow \\
+&e^{\beta\sum 1(1=X_t^1) + \beta\sum 1(1=X_t^2)} +e^{\beta\sum 1(1=X_t^1) + \beta\sum 1(0=X_t^2)} \geq e^{\beta\sum 1(1=X_t^1) + \beta\sum 1(1=X_t^2)} + e^{\beta\sum 1(0=X_t^1) + \beta\sum 1(1=X_t^2)} \Rightarrow\\
+&\sum 1(1=X_t^1) + \sum 1(0=X_t^2) \geq \sum 1(0=X_t^1) + \sum 1(1=X_t^2) \quad (*)
+\end{align*}
+
+\begin{align*}
+& (*) =
+\begin{cases}
+X_t^1 = 1, X_t^2 = 1 \qquad 1(1=X_t^1) + 1(0=X_t^2) = 1 \geq 1 = 1(0=X_t^1) + 1(1=X_t^2)\\
+X_t^1 = 1, X_t^2 = 0 \qquad 1(1=X_t^1) + 1(0=X_t^2) = 2 \geq 0 = 1(0=X_t^1) + 1(1=X_t^2)\\
+X_t^1 = 0, X_t^2 = 0 \qquad 1(1=X_t^1) + 1(0=X_t^2) = 1 \geq 1 = 1(0=X_t^1) + 1(1=X_t^2)\\
+X_t^1 = 0, X_t^2 = 1 \qquad\text{This case won't happen based on n-state induction}
+\end{cases}
+\end{align*}
+Now, the proof is finished. \par
+2)
+
+
+
+
+
+
+\end{document}
