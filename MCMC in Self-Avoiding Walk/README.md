@@ -1,4 +1,4 @@
-# STATS 202C Project 3
+# STATS 202C Project 1
 
 **project1.R** and **project1.cpp** contain R code and C++ code, respectively which are integrated by Rcpp. The report is in **project1.pdf**.
 
