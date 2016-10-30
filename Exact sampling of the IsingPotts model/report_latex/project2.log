@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  7 MAY 2016 21:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.5)  30 OCT 2016 12:44
 entering extended mode
-**C:/Study/Statistics/202C*Monte*Carlo*Methods*for*Optimization/project2/projec
-t2.tex
+**C:/Github/Monte-Carlo-Using-Rcpp/Exact*sampling*of*the*IsingPotts*model/repor
+t_latex/project2.tex
 
-("C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/projec
-t2.tex"
+("C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the IsingPotts model/repor
+t_latex/project2.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\Tools\CTEX\MiKTeX\tex\latex\base\article.cls
@@ -180,8 +180,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box29
 )
-("C:\Study\Statistics\202C Monte Carlo Methods for Optimization\project2\projec
-t2.aux")
+("C:\Github\Monte-Carlo-Using-Rcpp\Exact sampling of the IsingPotts model\repor
+t_latex\project2.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -312,19 +312,20 @@ Package pdftex.def Info: 100.pdf used on input line 80.
 Overfull \vbox (1.00099pt too high) has occurred while \output is active []
 
 
-[2 <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/050.
-pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/06
-5.pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/
-075.pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project
-2/083.pdf>]
+[2 <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the IsingPotts model/rep
+ort_latex/050.pdf> <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the Isin
+gPotts model/report_latex/065.pdf> <C:/Github/Monte-Carlo-Using-Rcpp/Exact samp
+ling of the IsingPotts model/report_latex/075.pdf> <C:/Github/Monte-Carlo-Using
+-Rcpp/Exact sampling of the IsingPotts model/report_latex/083.pdf>]
 Overfull \vbox (1.00099pt too high) has occurred while \output is active []
 
 
-[3 <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/084.
-pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/08
-5.pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/
-090.pdf> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project
-2/100.pdf>] <1.pdf, id=95, 614.295pt x 794.97pt>
+[3 <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the IsingPotts model/rep
+ort_latex/084.pdf> <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the Isin
+gPotts model/report_latex/085.pdf> <C:/Github/Monte-Carlo-Using-Rcpp/Exact samp
+ling of the IsingPotts model/report_latex/090.pdf> <C:/Github/Monte-Carlo-Using
+-Rcpp/Exact sampling of the IsingPotts model/report_latex/100.pdf>]
+<1.pdf, id=95, 614.295pt x 794.97pt>
 File: 1.pdf Graphic file (type pdf)
  <use 1.pdf>
 Package pdftex.def Info: 1.pdf used on input line 90.
@@ -335,29 +336,29 @@ File: 2.pdf Graphic file (type pdf)
  <use 2.pdf>
 Package pdftex.def Info: 2.pdf used on input line 95.
 (pdftex.def)             Requested size: 218.81206pt x 320.66315pt.
- [4 <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/1.p
-df> <C:/Study/Statistics/202C Monte Carlo Methods for Optimization/project2/2.p
-df>]
-("C:\Study\Statistics\202C Monte Carlo Methods for Optimization\project2\projec
-t2.aux") ) 
+ [4 <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the IsingPotts model/re
+port_latex/1.pdf> <C:/Github/Monte-Carlo-Using-Rcpp/Exact sampling of the Ising
+Potts model/report_latex/2.pdf>]
+("C:\Github\Monte-Carlo-Using-Rcpp\Exact sampling of the IsingPotts model\repor
+t_latex\project2.aux") ) 
 Here is how much of TeX's memory you used:
  3642 strings out of 495354
- 51571 string characters out of 3183524
+ 51669 string characters out of 3183524
  123024 words of memory out of 3000000
  6782 multiletter control sequences out of 15000+200000
  8285 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,16n,38p,730b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/T
-ools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Tools/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Tools/CTEX/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Tools/C
-TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Tools/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb>
-Output written on project2.pdf (4 pages, 462297 bytes).
+ 36i,16n,38p,744b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C
+:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Tools/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Tools/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Tools/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Tools/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Tools/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on project2.pdf (4 pages, 462437 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
